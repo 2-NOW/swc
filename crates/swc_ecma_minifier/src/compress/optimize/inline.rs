@@ -573,7 +573,7 @@ impl Optimizer<'_> {
                         self.typeofs.insert(i.to_id(), "function".into());
                     }
                     Decl::Class(..) => {
-                        self.typeofs.insert(i.to_id(), "object".into());
+                        self.typeofs.insert(i.to_id(), "function".into());
                     }
                     _ => {}
                 }
